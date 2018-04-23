@@ -5,7 +5,7 @@ import FileSystemPage from './component/fileSystemPage'
 class App extends Component {
   render() {
     return (
-      <div style={{height:'100%', position:'fixed'}}>
+      <div style={{height:'100%'}}>
         <FileSystemPage/>
       </div>
     );
