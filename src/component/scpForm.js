@@ -2,10 +2,6 @@ import {FormControl,FormGroup,InputGroup} from 'react-bootstrap';
 import React, { Component } from 'react';
 
 class ScpForm extends Component{
-  constructor(){
-    super();
-  }
-
   render(){
     return(
       <FormGroup>
