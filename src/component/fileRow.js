@@ -18,6 +18,10 @@ class FileRow extends Component{
     axios.get('http://9.30.97.77:10010/v1/download', 
     {headers: {"fullPath": filePath}})
     .then((response) => {
+      if (response.data instanceof Object){
+        console.log(JSON.stringify(response.data));
+        response.data = JSON.stringify(response.data);
+      }
       FileDownload(response.data, this.props.fileMeta.fileName);
     });
   }

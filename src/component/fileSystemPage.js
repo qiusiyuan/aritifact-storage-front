@@ -3,7 +3,6 @@ import axios from 'axios';
 import _ from 'lodash';
 import {Navbar, Nav, Button, NavItem, Table, Modal} from 'react-bootstrap';
 import FileRow from './fileRow';
-import './modal.css';
 import ScpForm  from './scpForm';
 
 class FileSystemPage extends Component {
